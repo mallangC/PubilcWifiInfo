@@ -1,0 +1,34 @@
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 1px;
+    width: 100%;
+}
+th,
+td {
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    padding: 10px 10px;
+}
+th {
+    font-size: 13px;
+    background: #36a166;
+    border-color: #fff;
+    color: #fff;
+    text-align: center;
+}
+td{
+    font-size: 13px;
+}
+tr:nth-child(even) td {
+    background: #eaeaed;
+}
+.info{
+    text-align: center;
+}
+table tr:hover {
+    background-color: rgb(202, 202, 202);
+}
+
